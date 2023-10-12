@@ -52,12 +52,7 @@ The two-sided tests ensure our `isAnonymous` field is toggled on/off appropriate
 In the edit page of your own user profile, there should now be a field labeled "My Courses." Within in that file, there is an 1000 word limit that allows you to manuallty type out the classes you have taken in the past. Once your edits are done, you click save, and the changes will update your profile. Then when you click back at your profile, you will now see under your username, a list of the courses you have taken.
 
 ### Technical structure
-                                              Backend
-      User input                    |-------------------------|         Frontend
-|-------------------|   Updating    |  parseMyCourses() and   |    |---------------|
-| Edit 'My Courses' | ------------> |  isMyCoursesValid() and | -> |  Courses now  |
-|-------------------|   Profile     |  updateMyCourses()      |    |  displayed    |
-                                    |-------------------------|    |---------------| 
+<img width="604" alt="Screenshot 2023-10-12 at 16 01 39" src="https://github.com/RarachelLuo/fall23-nodebb-poncho/assets/83194370/40edf1ca-378a-4ffe-a5e7-f4004d6ce59a">
 
 ### Testing
 
